@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&display=swap');
+
+body {
+    background-image: url(https://images.pexels.com/photos/6985003/pexels-photo-6985003.jpeg?cs=srgb&dl=pexels-codioful-6985003.jpg&fm=jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: "Alan Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 420px;
+    padding: 25px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 14px;
+    box-shadow: 0 6px 25px rgba(0,0,0,0.25);
+    text-align: center;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.container h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.item label {
+    font-weight: 500;
+    font-size: 1rem;
+    color: #444;
+}
+
+.item input[type="number"] {
+    width: 65px;
+    padding: 6px;
+    font-size: 1rem;
+    text-align: center;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 18px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background: #ff5454;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #e04141;
+}
+
+#bill {
+    margin-top: 20px;
+    padding: 15px;
+    background: #fff;
+    border-radius: 8px;
+    text-align: left;
+    font-family: monospace;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+    border: 1px dashed #999;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+#bill h2, #bill h3 {
+    text-align: center;
+    margin: 5px 0;
+}
+
+#bill p {
+    display: flex;
+    justify-content: space-between;
+    margin: 4px 0;
+    border-bottom: 1px dotted #ccc;
+    padding-bottom: 2px;
+    font-size: 0.95rem;
+}
+
+#addItemForm {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#addItemForm input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+#addItemForm button {
+    background: #4CAF50;
+    color: white;
+    transition: background 0.3s ease;
+}
+
+#addItemForm button:hover {
+    background: #3d8b40;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.95);}
+    to { opacity: 1; transform: scale(1);}
+}

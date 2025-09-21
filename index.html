@@ -1,11 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>Cherry Cups Bakery</title>
 </head>
 <body>
-    
+
+
+<div class="sup-container" id="addPage">
+    <div class="container">
+        <h1>Add Your Store Items</h1>
+        <div id="addItemForm">
+            <input type="text" id="newItemName" placeholder="Item Name">
+            <input type="number" id="newItemPrice" placeholder="Price" min="1">
+            <button id="addItemBtn">Add Item</button>
+        </div>
+        <div id="itemsListAdd"></div>
+        <button id="goBillingBtn">Go to Billing</button>
+    </div>
+</div>
+
+
+<div class="sup-container" id="billingPage" style="display:none;">
+    <div class="container">
+        <h1>Cherry Cups Bakery 🍒</h1>
+        <div id="itemsListBill"></div>
+        <button id="calcBtn">Calculate Bill</button>
+        <button id="printBtn">Print Bill</button>
+        <div id="bill"></div>
+        <button id="backToAddBtn" style="margin-top:10px; background:#4CAF50;">Back to Add Items</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
