@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&display=swap');
 
 body {
-    background-image: url(https://images.pexels.com/photos/6985003/pexels-photo-6985003.jpeg?cs=srgb&dl=pexels-codioful-6985003.jpg&fm=jpg);
+    background-image: url(https://marketplace.canva.com/EAD2962NKnQ/2/0/1600w/canva-rainbow-gradient-pink-and-purple-virtual-background-_Tcjok-d9b4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -58,7 +58,7 @@ button {
     font-size: 1rem;
     font-weight: bold;
     color: white;
-    background: #ff5454;
+    background: #4587eb;
     border: none;
     border-radius: 6px;
     cursor: pointer;
@@ -67,7 +67,7 @@ button {
 }
 
 button:hover {
-    background: #e04141;
+    background: #245acf;
 }
 
 #bill {
@@ -113,13 +113,13 @@ button:hover {
 }
 
 #addItemForm button {
-    background: #4CAF50;
+    background: #0dc016;
     color: white;
     transition: background 0.3s ease;
 }
 
 #addItemForm button:hover {
-    background: #3d8b40;
+    background: #0c8810;
 }
 
 @keyframes fadeIn {
